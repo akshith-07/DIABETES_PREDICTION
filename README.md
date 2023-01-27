@@ -4,8 +4,7 @@
 
 ## OVERVIEW
 
-This project is about predicting rocks against Mines by the SONAR technology with the help of Machine Learning. SONAR is an abbreviated form of Sound Navigation and Ranging. It uses sound waves to detect objects underwater. Machine learning-based tactics, and deep learning-based approaches have applications in detecting sonar signals and hence targets.The three stages of Machine Learning are taking some data as input, extracting features, and predicting new patterns. The most common ML 
-algorithms in this field are Logistic Regression, support vector machine, principal component analysis, k-nearest neighbors (KNN), etc.
+  Diabetes is a medical disorder that impacts how well our body uses food as fuel. Most food we eat daily is converted to sugar, commonly known as glucose, and then discharged into the bloodstream. Our pancreas releases insulin when the blood sugar levels rise.Diabetes can cause blood sugar levels to rise if it is not continuously and carefully managed, which raises the chance of severe side effects like heart attack and stroke. I, therefore, choose to forecast using Python machine learning algorithms inorder to predict the disease accurately.
 
 ## OBJECTIVE 
 
@@ -22,7 +21,7 @@ A Python library is a collection of related modules. It contains bundles of code
 ## MODULES DESCRIPTION
 
 
-### Dataset Collection
+### Dataset Collection:
 This module includes data collection and understanding the data to study the patterns and trends which helps inprediction and evaluating theresults.Dataset description is given belowThis Diabetes dataset contains 800 records and 10 attributes.
 Table 1. Dataset Information
 Attributes Type
@@ -34,15 +33,15 @@ Insulin N
 BMI N
 Age N
 
-### Data Pre-processing
+### Data Pre-processing:
 This phase of model handles inconsistent data in order to get more accurate and precise results. This dataset containsmissing values. So we imputed missing values for few selected attributes like Glucose level, Blood Pressure, SkinThickness, BMI and Age because these attributes cannot have values zero. Then we scale the dataset to normalizeall values.
 
-### Clustering
+### Clustering:
 In this phase, we have implemented K-means clustering on the dataset to classify each patient into either a diabeticor non-diabetic class. Before performing K-means clustering, highly correlated attributes were found which were,Glucose and Age. K-means clustering was performed on these two attributes. After implementation of this
 clustering we got class labels (0 or 1) for each of our record.
 
-### Model Building
+### Model Building:
 This is most important phase which includes model building for prediction of diabetes. In this we have implementedmachine learning algorithms for diabetes prediction. These algorithms include Support Vector Classifier,Logistic Regression, K-Nearest Neighbour, Gaussian Naïve Bayes,Bagging algorithm, Gradient Boost Classifier.In this,I have just implemented the MLP Classifier.
 
-### Evaluation
+### Evaluation:
 This is the final step of prediction model. Here, we evaluate the prediction results using various evaluation metricslike classification accuracy, confusion matrix and f1-score.Classification Accuracy- It is the ratio of number of correct predictions to the total number of input samples. 
