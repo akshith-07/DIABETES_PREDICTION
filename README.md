@@ -47,3 +47,4 @@ This is most important phase which includes model building for prediction of dia
 This is the final step of prediction model. Here, we evaluate the prediction results using various evaluation metricslike classification accuracy, confusion matrix and f1-score.Classification Accuracy- It is the ratio of number of correct predictions to the total number of input samples. 
 
 
+# HAPPY LEARNING
