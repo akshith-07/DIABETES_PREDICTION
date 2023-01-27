@@ -8,7 +8,7 @@
 
 ## OBJECTIVE 
 
-The main aim is to predict the rock or mine in the underwater(sea , oceans) using SONAR that uses sound propagation (usually underwater, as in submarine navigation) to navigate, measure distances (ranging), communicate with or detect objects on or under the surface of the water , which will help the sea divers , submarines to know whether the object is mine or rock . I am using machine learning algorithms to predict these by using the dataset.
+The main aim of the project is to predict diabetes via three different supervised machine learning methods including: SVM, Logistic regression and the MLP Classifier . This project also aims to propose an effective technique for earlier detection of the diabetes disease so that a person can avoid the serious stage/conditon of the diabetes.
 
 ## LIBRARIES USED
 
@@ -45,3 +45,5 @@ This is most important phase which includes model building for prediction of dia
 
 ### Evaluation:
 This is the final step of prediction model. Here, we evaluate the prediction results using various evaluation metricslike classification accuracy, confusion matrix and f1-score.Classification Accuracy- It is the ratio of number of correct predictions to the total number of input samples. 
+
+
