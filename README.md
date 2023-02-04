@@ -26,7 +26,7 @@ This module includes data collection and understanding the data to study the pat
 Table 1. Dataset Information
 Attributes Type
 Number of Pregnancies N
-Glucose Level N
+Glucose Level N 
  Blood Pressure N
 Skin Thickness(mm) N
 Insulin N
