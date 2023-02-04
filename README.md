@@ -40,7 +40,7 @@ This phase of model handles inconsistent data in order to get more accurate and 
 In this phase, we have implemented K-means clustering on the dataset to classify each patient into either a diabeticor non-diabetic class. Before performing K-means clustering, highly correlated attributes were found which were,Glucose and Age. K-means clustering was performed on these two attributes. After implementation of this
 clustering we got class labels (0 or 1) for each of our record.
 
-### Model Building:
+### Model Building: 
 This is most important phase which includes model building for prediction of diabetes. In this we have implementedmachine learning algorithms for diabetes prediction. These algorithms include Support Vector Classifier,Logistic Regression, K-Nearest Neighbour, Gaussian Naïve Bayes,Bagging algorithm, Gradient Boost Classifier.In this,I have just implemented the MLP Classifier.
 
 ### Evaluation:
