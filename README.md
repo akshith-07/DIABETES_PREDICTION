@@ -31,7 +31,7 @@ Glucose Level N
 Skin Thickness(mm) N
 Insulin N
 BMI N
-Age N
+Age N 
 
 ### Data Pre-processing:
 This phase of model handles inconsistent data in order to get more accurate and precise results. This dataset containsmissing values. So we imputed missing values for few selected attributes like Glucose level, Blood Pressure, SkinThickness, BMI and Age because these attributes cannot have values zero. Then we scale the dataset to normalizeall values.
